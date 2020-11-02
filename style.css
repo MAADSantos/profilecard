@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #222426;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    height: 250px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+    display: block;
+    background-image: linear-gradient(180deg, #c6f0ff 0, #c8efff 4.55%, #cbeeff 9.09%, #ceedff 13.64%, #d2ecff 18.18%, #d7eaff 22.73%, #dbe9ff 27.27%, #e0e8ff 31.82%, #e5e7ff 36.36%, #eae5ff 40.91%, #eee4ff 45.45%, #f3e3ff 50%, #f7e2fc 54.55%, #fbe1f9 59.09%, #ffe0f6 63.64%, #ffdff2 68.18%, #ffdfee 72.73%, #ffdfeb 77.27%, #ffdfe7 81.82%, #ffdfe3 86.36%, #ffdfdf 90.91%, #ffdfdb 95.45%, #ffe0d8 100%);
+}
+
+.container p {
+    text-align: center;
+    font-size: 22px;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+    border-radius: 3rem;
+    margin-top: 20px;
+}
+
+.linkholder {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.linkholder a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 22px;
+    color: #222326;
+}
+
+.linkholder a:hover {
+    color: #727273;
+}
